@@ -1,0 +1,7 @@
+Node:
+    NodeId: int
+    NodeName: string
+
+Graph:
+    NodeId: int
+    Parent: int

@@ -1,0 +1,8 @@
+{{~ for kp in context ~}}
+CREATE TABLE {{ kp.key}} (
+ {{~ for kpt in kp.value ~}}
+  {{kpt.key}} {{kpt.value}}
+ {{~ end ~}}
+);
+
+{{~ end ~}}

@@ -1,0 +1,10 @@
+
+{{~ for kp in context ~}}
+public class {{ kp.key}} 
+{
+ {{~ for kpt in kp.value ~}}
+  public {{kpt.value}} {{kpt.key}}  {get; set; }
+ {{~ end ~}}
+
+}
+{{~ end ~}}

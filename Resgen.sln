@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resgen.cli", "Resgen.cli\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resgen.test", "Resgen.test\Resgen.test.csproj", "{78A17C90-CF6A-40AD-80A2-683D8389A0E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resgen.lib", "Resgen.lib\Resgen.lib.csproj", "{F819CB85-ED62-4BF7-9A67-1A90244B7F75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{78A17C90-CF6A-40AD-80A2-683D8389A0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78A17C90-CF6A-40AD-80A2-683D8389A0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78A17C90-CF6A-40AD-80A2-683D8389A0E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F819CB85-ED62-4BF7-9A67-1A90244B7F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F819CB85-ED62-4BF7-9A67-1A90244B7F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F819CB85-ED62-4BF7-9A67-1A90244B7F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F819CB85-ED62-4BF7-9A67-1A90244B7F75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
